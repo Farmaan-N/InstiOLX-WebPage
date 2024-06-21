@@ -9,19 +9,15 @@ InstiOLX is a community-based online marketplace where users can buy and sell a 
 File Structure
 
 InstiOLX/
-│
-├── index.html
-├── sell.html
-├── styles/
-│   ├── Styles.css
-│   ├── sellstyles.css
-│
-├── images/
-│   ├── InstiOLX_wall2.01.png
-│   ├── HP_Shop.png
-│   ├── product images (various)
-│
-└── README.md
+      index.html
+      sell.html
+      styles/
+          Styles.css
+          sellstyles.css
+      images/
+          InstiOLX_wall2.01.png
+          HP_Shop.png
+
 
 Dependencies
 
