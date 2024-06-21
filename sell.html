@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sell WebPage</title>
+    <link rel="stylesheet" href="sellstyles.css" >
+</head>
+<body>
+    <div class="container">
+        <h2>Sell Your Item</h2>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="photo">Photo of Item:</label>
+                <input type="file" id="photo" name="photo[]" multiple><br>
+                <input type="file" id="photo" name="photo[]" multiple>
+            </div>
+            <div class="form-group">
+                <label for="name">Product Name:</label>
+                <input type="text" id="name" name="name" placeholder="Eg.TV">
+            </div>
+            <div class="form-group">
+                <label for="brand">Product Brand:</label>
+                <input type="text" id="brand" name="brand" placeholder="Eg.Sony">
+            </div>
+            <div class="form-group">
+                <label for="date">When was it bought:</label>
+                <input type="date" id="date" name="date" >
+            </div>
+            <div class="form-group">
+                <label for="price">Price:</label>
+                <input type="text" id="price" name="price" placeholder="Eg.₹10,000">
+            </div>
+            <div class="form-group">
+                <label for="sellerName">Seller's Name:</label>
+                <input type="text" id="sellerName" name="sellerName" placeholder="Eg.John">
+            </div>
+            <div class="form-group">
+                <label for="contactNumber">Contact Number:</label>
+                <input type="tel" id="contactNumber" name="contactNumber" placeholder="Eg.+91 1231231234">
+            </div>
+            <div class="form-group">
+                <label for="location">Seller's Location:</label>
+                <input type="text" id="location" name="location" placeholder="Guindy,Chennai-600036">
+            </div>
+            <div class="form-group">
+                <label for="description">Description:</label>
+                <textarea name="description" cols="101" rows="8">Product Details in short....</textarea>
+            </div>
+
+            <button type="post">Post</button>
+            <button type="reset">Reset</button>
+        
+        </form>
+    </div>
+</body>
+</html>
